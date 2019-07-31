@@ -35,7 +35,7 @@
     * Network slicing : SGi Interface (4G), Service Driven slicing (uRLLC, mMTC, eMBB, IoT)
     
 ## Design Objective 
-###Solution to Current crowded spectrum
+### Solution to Current crowded spectrum
 * 5G demand high frequency, ultra dense network.
 * Use of large portion of free spectrum bands (BW & Prpagation condition)
 * Spectrum sharing techniques are introduced (SDN & NFV for monitoring)
