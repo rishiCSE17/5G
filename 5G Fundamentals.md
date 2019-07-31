@@ -17,7 +17,7 @@
 
 # 1. 5G Intro
 ## 1.1. 5GPPP & NGMN 
-* 5GPPP : 5G public private partnership project 
+* __5GPPP__ : 5G public private partnership project 
     > * Joint colab between European Communication & European ICT Industry 
     > * ICT industry includes : ICT Manufacturers, Telcom operators, ISP, SME & Research Institute 
     > * 21 project lauched in June2017 at Brussel 
@@ -25,7 +25,7 @@
     > * saves 90% energy/SP 
     > * Service creation time from 90 Hrs to 90 mins 
     > * Denser deployment
-* NGMN : Next Gen Mobile Network 
+* __NGMN__ : Next Gen Mobile Network 
     > * industry organization of world wide telco operators, vendors, R&D 
     > * Founded by INO at 2006
     > 
@@ -61,9 +61,9 @@ Spider chart of IMT 2020 [https://www.etsi.org/technologies/5g]
 
 ## Spectrum Requirements 
 5G requires High, Med & Low frequencies to cater various types of application 
-* Low Freq  : Below 2 GHz : 700 MHz  
-* Mid Freq  : (2 - 6 GHz)  : 3300 - 3800 MHz 
-* High Freq : Above 6 GHz : 24.25 - 29.5 , 37 - 43.5 GHz
+* __Low Freq__  : Below 2 GHz : 700 MHz  
+* __Mid Freq__  : (2 - 6 GHz)  : 3300 - 3800 MHz 
+* __High Freq__ : Above 6 GHz : 24.25 - 29.5 , 37 - 43.5 GHz
 ![](pics/spectrum-requirements-02.png)
 [https://www.huawei.com/nz/about-huawei/public-policy/5g-spectrum/spectrum-requirements-across-multiple-layers
 ]
@@ -116,3 +116,45 @@ SDAI).
 
 ### User Centric Network 
 User centric than cell centric by supporting 7 features  
+
+# 2. 5G Design Architecture 
+
+## 2.1. 5G Scenario 
+![](pics/mob_traffic_gr.jpg)
+[www.ericsson.com/en/mobility-report/future-mobile-data-usage-and-traffic-growth]
+* Enhanced Telecom Infrastructure and New Services 
+* Application areas 
+    * Agriculture
+    * Medicine 
+    * Finance 
+    * Transportation 
+    * Manufacturing 
+    * Education 
+* 3 5G categaroy of service by ITU
+    * mMTC : scalable monitoring and automation 
+    * URLLC : tactile internent  
+    * eMBB : Increase target bits/user 
+
+## 2.2. 5G RAN 
+![](pics/cran.png)
+[https://www.researchgate.net/figure/Cloud-RAN-architecture_fig1_282266765]
+
+## 2.3 5G Mobile Core 
+![](pics/core.png)
+
+## 2.4. RRH (Remote Radio Head)
+![](pics/RRH1.png)
+### RRH Contains
+* BS RF Circuit 
+* AD/DA Converter 
+* Mixer 
+* up/down power converter 
+![](pics/rrh2.png)
+
+### Functions of RRH
+1. Converts optical signal to electrical signal and vice versa using CPRI (Common Public
+Radio Interface)
+2. Tx Section converts Digital signal to RF, Amplify the signal to its desided power level and radiate 
+2. Rx section receives signal at desired power state, di-ampligy and converts to digital signal 
+![](pics/RRH-internal.png)
+[www.techplayon.com/rrh-remote-radio-head-connected-bbu-base-band-unit/]
