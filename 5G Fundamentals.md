@@ -186,6 +186,7 @@ Radio Interface)
 2. Tx Section converts Digital signal to RF, Amplify the signal to its desided power level and radiate 
 2. Rx section receives signal at desired power state, di-ampligy and converts to digital signal 
 ![](pics/RRH-internal.png)
+
 [www.techplayon.com/rrh-remote-radio-head-connected-bbu-base-band-unit/]
 
 ## 2.5. 5G Architecture 
@@ -211,3 +212,32 @@ Radio Interface)
 5. Integrating Het-Net technologies including fixed and wireless 
 ![](pics/5G_view.png)
 [https://5g-ppp.eu/wp-content/uploads/2014/02/5G-PPP-5G-Architecture-WP-July-2016.pdf]
+
+##2.6. Network Slicing 
+
+* Addresses the deployment of multiple logical networks (5G Slice) as a business operation 
+on a common physical infrastructure. 
+* a __5G Slice__ is a collection of 5G network function and Specific RAT settings, used for 
+specific use-case and/or business model 
+* A slice and be accommodated on Physical (PNF) or Virtual (VNF) network function 
+* Must support both Centralised and Edge cloud 
+![](pics/slicing.png)
+
+### Convergence architecture (4G - 5G)
+![](pics/4g-5g.png)
+
+## 5G Architecture 
+* Based on ETSI-NFV principles 
+* E2E service management and orchestration (MANO) module
+* Programmable controller for VNF/PNF 
+![](pics/5g-planes.png)
+[https://www.researchgate.net/publication/314493826_RAN_Architecture_Components_-_Intermediate_Report]
+* separation of Control & Data plane using SDN 
+* Isolation of Core (EPC) and Radio network (RAN) using a __Transport Network__ (supports slicing)
+* Three new packet based interface are introduced 
+    > 1. Packetised CPRI 
+    > 2. Next Gen fronthaul Interface ( a new functional split within RAN) 
+    > 3. New Backhaul Interface 
+* optical networks to glue this modules 
+
+### Logical & Functional architecture of 5G 
