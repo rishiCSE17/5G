@@ -258,4 +258,14 @@ To bridge the gab between __DRAN__ and __CRAN__ Dynamic CRAN is introduced with 
 * Splits the BBU into PNF and VNF.
 * VNF can move between various host based on network requirement 
 
+### 5G New Radio (NR)
+* __CU__ : Central Unit : It is a logical node that includes the gNB functions
+    > * Transfer of user data
+    > * Mobility control
+    > * Radio access network sharing
+    > * Positioning
+    > * Session Management
+* __DU__ : Distributed unit  
+![](pics/5gNR.png)
+ [http://www.techplayon.com/5g-nr-gnb-logical-architecture-functional-split-options/]
  
