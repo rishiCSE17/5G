@@ -241,3 +241,21 @@ specific use-case and/or business model
 * optical networks to glue this modules 
 
 ### Logical & Functional architecture of 5G 
+New network functions
+* Filtering and forwarding 
+* Deep packet inspection 
+* Stream handling and signal processing 
+* Web services and database functions 
+* virtualization(including VNF) : represented by virtual machine (Reusable Function blocks : __RFB__)
+    > Router, Firewall, NAT etc 
+
+### Dynamic CRAN 
+split of BB processing there are two options 
+* __DRAN__ : Distributed RAN : Low latency 
+* __CRAN__ : Cloud RAN : High spectral efficiency, high energy efficiency and reduce cost 
+
+To bridge the gab between __DRAN__ and __CRAN__ Dynamic CRAN is introduced with the use of SDN and Visualization.
+* Splits the BBU into PNF and VNF.
+* VNF can move between various host based on network requirement 
+
+ 
