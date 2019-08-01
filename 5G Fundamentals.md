@@ -187,3 +187,27 @@ Radio Interface)
 2. Rx section receives signal at desired power state, di-ampligy and converts to digital signal 
 ![](pics/RRH-internal.png)
 [www.techplayon.com/rrh-remote-radio-head-connected-bbu-base-band-unit/]
+
+## 2.5. 5G Architecture 
+### impact of 5G in various networks 
+1. Mobile network
+2. Physical Networking & Computing facilities 
+3. Service Infrastructure management and orchestration
+4. Hosting and deployment system
+
+### Features
+1. E2E connection and compute infrastructures 
+2. Application and service aware 
+3. Evolution in terms of - Capacity, Performance and Spectrum Access 
+4. Front-haul and back-haul integration 
+5. Access, Aggregation and Core network 
+6. SDN, MEC, IoT 
+   
+### Use Cases for 5G Business Opportunities
+1. Implementing network slicing in a cost effective way 
+2. addressing both end user and operational services
+3. Supporting softawization natively  
+4. Integrating Communication and Computation 
+5. Integrating Het-Net technologies including fixed and wireless 
+![](pics/5G_view.png)
+[https://5g-ppp.eu/wp-content/uploads/2014/02/5G-PPP-5G-Architecture-WP-July-2016.pdf]
